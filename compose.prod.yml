@@ -1,0 +1,14 @@
+name: sastb-prod
+
+services:
+  application:
+    container_name: application
+    build: .
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - '.docker/app/logs:/opt/app/logs'
+      - '.docker/app/db:/opt/app/db'
+    env_file:
+      - .env
