@@ -23,7 +23,7 @@ class TemplatesSettings(BaseModel):
         description="Text for the confirmation button in the welcome message",
     )
     kicked_user_text: str = Field(
-        default="{user} have been kicked from the group.",
+        default="{user} has been kicked from the group.",
         description="Text for the confirmation button in the welcome message",
     )
     kick_user_error_text: str = Field(
