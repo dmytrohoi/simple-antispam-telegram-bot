@@ -31,7 +31,7 @@ class BotApp(metaclass=Singleton):
     config: "TelegramConfig"
 
     def __init__(self, config: Optional["TelegramConfig"] = None):
-        """ "
+        """
         Initialize the bot app.
 
         Args:

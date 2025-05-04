@@ -1,6 +1,6 @@
 # simple-antispam-telegram-bot
 
-Simple anti-spam Telegram bot. Allows to check an user on group joining.
+Simple anti-spam Telegram bot. Allows to check a user on group joining.
 
 ## Technology stack
 
