@@ -8,7 +8,7 @@ class BotInfo(BaseModel):
 
     description: str = Field(
         default=(
-            "The source code ot this bot is available at "
+            "The source code of this bot is available at "
             "https://github.com/dmytrohoi/simple-antispam-telegram-bot\n\n"
             "You can also use more advanced variant of this bot - "
             "@advancedguardbot."
